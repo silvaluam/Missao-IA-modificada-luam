@@ -13,16 +13,16 @@ const perguntas = [
                 texto: " Em grupo ",
                 afirmacao: [
                     " Você gosta de se conectar com as pessoas e se sente energizado em interações sociais.",
-                    "afirmacao 2",
-                    "afirmacao 3"
+                    "Você se sente mais motivado quando trabalha em equipe e compartilha ideias com outras pessoas.",
+                    "Você encontra prazer em ambientes dinâmicos e no intercâmbio de experiências e opiniões."
                 ]
             },
             {
                 texto: " Sozinho",
                 afirmacao: [
                     "Você valoriza momentos de introspecção e recarrega suas energias no silêncio.",
-                    "afirmacao 2",
-                    "afirmacao 3"
+                    "Você se concentra melhor e sente maior produtividade quando está sozinho, sem distrações",
+                    "Você prefere trabalhar de forma independente, tomando suas próprias decisões e seguindo seu ritmo."
                 ]
             }
         ]
@@ -34,16 +34,16 @@ const perguntas = [
                 texto: " Racional ",
                 afirmacao: [
                     " Você confia na lógica e na análise para encontrar a melhor solução.   ",
-                    "afirmacao 2",
-                    "afirmacao 3"
+                    "Você prefere avaliar prós e contras antes de agir, buscando sempre decisões bem fundamentadas",
+                    "Você tende a separar emoções dos fatos para manter clareza e objetividade em suas escolhas"
                 ]
             },
             {
                 texto: " Emocional ",
                 afirmacao: [
                     "Você leva em conta os sentimentos e a empatia antes de decidir. ",
-                    "afirmacao 2",
-                    "afirmacao 3"
+                    "Você acredita que as emoções são uma bússola importante para orientar suas escolhas",
+                    "Você se guia pela intuição e procura agir de acordo com o que sente ser o mais certo"
                 ]
             }
         ]
@@ -55,16 +55,16 @@ const perguntas = [
                 texto: " Cauteloso (a) ",
                 afirmacao: [
                     "Você pensa antes de agir e prefere segurança e planejamento.  ",
-                    "afirmacao 2",
-                    "afirmacao 3"
+                    "Você analisa riscos com cuidado antes de tomar qualquer decisão",
+                    "Você se sente mais confortável quando pode prever resultados e evitar surpresas"
                 ]
             },
             {
                 texto: "Aventureiro (a) ",
                 afirmacao: [
                     "Você gosta de explorar o desconhecido e abraça desafios com entusiasmo. ",
-                    "afirmacao 2",
-                    "afirmacao 3"
+                    "Você vê novas experiências como oportunidades de crescimento e aprendizado",
+                    "Você se sente motivado(a) pela descoberta e pela emoção do inesperado"
                 ]
             }
         ]
@@ -76,16 +76,16 @@ const perguntas = [
                 texto: " Estar em movimento ( passeios, esportes, festas )  ",
                 afirmacao: [
                     "Você é dinâmico, gosta de novidades e aproveita a vida ativamente.  ",
-                    "afirmacao 2",
-                    "afirmacao 3"
+                    "Você se sente revigorado quando está em ambientes cheios de energia e movimento",
+                    "Você prefere experiências que tragam emoção, interação e novas histórias para contar"
                 ]
             },
             {
                 texto: "  Relaxar em casa (ler, ver filmes, descansar)   ",
                 afirmacao: [
                     "Você valoriza tranquilidade e aprecia momentos de calma e descanso.",
-                    "afirmacao 2",
-                    "afirmacao 3"
+                    "Você encontra prazer nas pequenas coisas e gosta de recarregar as energias no conforto do lar",
+                    "Você prefere atividades que proporcionem introspecção, bem-estar e serenidade"
                 ]
             }
         ]
@@ -97,15 +97,16 @@ const perguntas = [
                 texto: "  Argumenta e defende seu ponto  ",
                 afirmacao: [
                     "Você é firme em suas opiniões e gosta de se expressar com clareza.",
-                    "afirmacao 2",
-                    "afirmacao 3"
+                    "Você acredita na importância do diálogo e gosta de sustentar suas ideias com argumentos sólidos",
+                    "Você encara divergências como oportunidades para trocar perspectivas e fortalecer seu ponto de vista"
                 ]
             },
             {
                 texto: "  Prefere evitar conflitos ",
-                afirmacao: ["Você busca harmonia nos relacionamentos e evita desgastes desnecessários.",
-                    "afirmacao 2",
-                    "afirmacao 3"
+                afirmacao: [
+                    "Você busca harmonia nos relacionamentos e evita desgastes desnecessários.",
+                    "Você acredita que manter a paz vale mais do que vencer uma discussão",
+                    "Você tende a ceder quando percebe que o conflito pode afetar o equilíbrio das relações"
                 ]
             }
         ]
