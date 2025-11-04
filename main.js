@@ -11,11 +11,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Em grupo ",
-                afirmacao: " Você gosta de se conectar com as pessoas e se sente energizado em interações sociais. ",
+                afirmacao: [
+                    " Você gosta de se conectar com as pessoas e se sente energizado em interações sociais.",
+                    "afirmacao 2",
+                    "afirmacao 3"
+                ]
             },
             {
                 texto: " Sozinho",
-                afirmacao: " Você valoriza momentos de introspecção e recarrega suas energias no silêncio.",
+                afirmacao: [
+                    "Você valoriza momentos de introspecção e recarrega suas energias no silêncio.",
+                    "afirmacao 2",
+                    "afirmacao 3"
+                ]
             }
         ]
     },
@@ -24,11 +32,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Racional ",
-                afirmacao: " Você confia na lógica e na análise para encontrar a melhor solução.   ",
+                afirmacao: [
+                    " Você confia na lógica e na análise para encontrar a melhor solução.   ",
+                    "afirmacao 2",
+                    "afirmacao 3"
+                ]
             },
             {
                 texto: " Emocional ",
-                afirmacao: " Você leva em conta os sentimentos e a empatia antes de decidir. ",
+                afirmacao: [
+                    "Você leva em conta os sentimentos e a empatia antes de decidir. ",
+                    "afirmacao 2",
+                    "afirmacao 3"
+                ]
             }
         ]
     },
@@ -37,11 +53,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Cauteloso (a) ",
-                afirmacao: " Você pensa antes de agir e prefere segurança e planejamento.  ",
+                afirmacao: [
+                    "Você pensa antes de agir e prefere segurança e planejamento.  ",
+                    "afirmacao 2",
+                    "afirmacao 3"
+                ]
             },
             {
                 texto: "Aventureiro (a) ",
-                afirmacao: " Você gosta de explorar o desconhecido e abraça desafios com entusiasmo. ",
+                afirmacao: [
+                    "Você gosta de explorar o desconhecido e abraça desafios com entusiasmo. ",
+                    "afirmacao 2",
+                    "afirmacao 3"
+                ]
             }
         ]
     },
@@ -50,11 +74,19 @@ const perguntas = [
         alternativas: [
             {
                 texto: " Estar em movimento ( passeios, esportes, festas )  ",
-                afirmacao: "  Você é dinâmico, gosta de novidades e aproveita a vida ativamente.  ",
+                afirmacao: [
+                    "Você é dinâmico, gosta de novidades e aproveita a vida ativamente.  ",
+                    "afirmacao 2",
+                    "afirmacao 3"
+                ]
             },
             {
                 texto: "  Relaxar em casa (ler, ver filmes, descansar)   ",
-                afirmacao: "  Você valoriza tranquilidade e aprecia momentos de calma e descanso.",
+                afirmacao: [
+                    "Você valoriza tranquilidade e aprecia momentos de calma e descanso.",
+                    "afirmacao 2",
+                    "afirmacao 3"
+                ]
             }
         ]
     },
@@ -63,11 +95,18 @@ const perguntas = [
         alternativas: [
             {
                 texto: "  Argumenta e defende seu ponto  ",
-                afirmacao: "Você é firme em suas opiniões e gosta de se expressar com clareza.",
+                afirmacao: [
+                    "Você é firme em suas opiniões e gosta de se expressar com clareza.",
+                    "afirmacao 2",
+                    "afirmacao 3"
+                ]
             },
             {
                 texto: "  Prefere evitar conflitos ",
-                afirmacao: " Você busca harmonia nos relacionamentos e evita desgastes desnecessários.",
+                afirmacao: ["Você busca harmonia nos relacionamentos e evita desgastes desnecessários.",
+                    "afirmacao 2",
+                    "afirmacao 3"
+                ]
             }
         ]
     },
